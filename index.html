@@ -461,6 +461,8 @@ const address = ["", "NAGPUR", "DAROGHA MASJID KE PASS WARIS PURA KAMPTEE", "512
                 var items = new Array();
                 document.getElementById("table").style.display = "block";
                 var index = new Array();
+                str = str.replace(" ", "")
+                str = Number(str)
 
                 if (str == "") {
                     alert("Enter center code");
